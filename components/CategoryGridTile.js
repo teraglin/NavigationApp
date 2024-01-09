@@ -1,6 +1,10 @@
 import { View, Pressable, Text, StyleSheet, Platform } from "react-native";
+// NAVIGATION HOOK ALTERNATIVE TO PASSING DOWN PROPS
+// import { useNavigation } from "@react-navigation/native";
 
 function CategoryGridTile({ title, color, onPress }) {
+  // const navigation = useNavigation();
+
   return (
     <View style={styles.gridItem}>
       <Pressable
